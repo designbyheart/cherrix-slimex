@@ -1,0 +1,25 @@
+.header-container {
+    background: url('/images/hero-background.svg') no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 0 0 3rem 0;
+    margin: 0;
+    z-position: -1;
+
+    .header-content {
+        padding: 1rem;
+        margin: 0;
+
+        .links {
+            @include horizontal(flex-end);
+            gap: 1rem;
+        }
+
+        h1 {
+            text-align: right;
+            max-width: 33rem;
+            line-height: 1.2;
+            align-self: flex-end;
+            padding-right: 1rem;
+        }
+    }
+}
