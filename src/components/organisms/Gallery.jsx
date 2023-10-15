@@ -1,4 +1,5 @@
 import { Image, Link } from '@nextui-org/react'
+import { StaticImage } from 'gatsby-plugin-image'
 import React, { forwardRef } from 'react'
 
 import items from '../../data/galleryData'
@@ -24,6 +25,7 @@ function Gallery({ ref }) {
                             // eslint-disable-next-line jsx-a11y/anchor-is-valid
                             <Link key={item.image} href="#" className="gallery-item">
                                 {/* <Image src={`/images/${item.image}`} /> */}
+                                <StaticImage alt={item.title} src={`/images/${item.image}`} />
                                 sdfsd
                             </Link>
                         )
