@@ -1,0 +1,21 @@
+@mixin frosted-background($blur: 0.5rem) {
+    -webkit-backdrop-filter: blur($blur);
+    backdrop-filter: blur($blur);
+}
+
+@mixin box-shadow($blur: 0.5rem, $y-position: 0.2rem, $x-position: 0, $opacity: 0.5) {
+    box-shadow: $x-position $y-position $blur 0 rgba(0, 0, 0, $opacity);
+
+    -moz-box-shadow: $x-position $y-position 5px rgba(0, 0, 0, $opacity);
+    -webkit-box-shadow: $x-position $y-position $blur rgba(0, 0, 0, $opacity);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=$opacity);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)';
+    zoom: 1;
+}
+
+@mixin horizontal($align: space-between) {
+    display: flex;
+    flex-direction: row;
+    justify-content: $align;
+}

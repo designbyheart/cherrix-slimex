@@ -1,0 +1,47 @@
+@import './constants';
+
+.page-styles {
+    color: #232129;
+    padding: 0;
+    margin: 0;
+    font-family:
+        Inter,
+        -apple-system,
+        sans-serif,
+        serif;
+    font-size: 1rem;
+    background: $background;
+    min-height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    max-width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $brand-purple;
+    font-family: $slime;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: $white;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}

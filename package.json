@@ -1,33 +1,58 @@
 {
-  "name": "cherrix-slimex",
-  "version": "1.0.0",
-  "private": true,
-  "description": "cherrix-slimex",
-  "author": "Pedja Jevtic",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@mdx-js/react": "^2.3.0",
-    "gatsby": "^5.12.4",
-    "gatsby-plugin-google-analytics": "^5.12.0",
-    "gatsby-plugin-image": "^3.12.1",
-    "gatsby-plugin-manifest": "^5.12.1",
-    "gatsby-plugin-mdx": "^5.12.1",
-    "gatsby-plugin-sass": "^6.12.1",
-    "gatsby-plugin-sharp": "^5.12.1",
-    "gatsby-plugin-sitemap": "^6.12.1",
-    "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-transformer-sharp": "^5.12.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.69.3"
-  }
+    "name": "cherrix-slimex",
+    "version": "1.0.0",
+    "private": true,
+    "description": "cherrix-slimex",
+    "author": "Pedja Jevtic",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "dev": "gatsby develop",
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+        "prepare": "husky install",
+        "format": "prettier --check --ignore-path .gitignore .",
+        "format:fix": "prettier --write --ignore-path .gitignore ."
+    },
+    "dependencies": {
+        "@mdx-js/react": "^2.3.0",
+        "@nextui-org/react": "^2.1.13",
+        "eslint": "^7.32.0 || ^8.2.0",
+        "framer-motion": "^10.16.4",
+        "gatsby": "^5.12.4",
+        "gatsby-plugin-google-analytics": "^5.12.0",
+        "gatsby-plugin-image": "^3.12.1",
+        "gatsby-plugin-manifest": "^5.12.1",
+        "gatsby-plugin-mdx": "^5.12.1",
+        "gatsby-plugin-sass": "^6.12.1",
+        "gatsby-plugin-sharp": "^5.12.1",
+        "gatsby-plugin-sitemap": "^6.12.1",
+        "gatsby-source-filesystem": "^5.12.0",
+        "gatsby-transformer-sharp": "^5.12.1",
+        "prettier": "^3.0.3",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.69.3"
+    },
+    "devDependencies": {
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-import": "^2.28.1",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-prettier": "^5.0.1",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "gatsby-plugin-eslint": "^4.0.4",
+        "husky": "^8.0.3",
+        "stylelint": "^15.10.3",
+        "stylelint-config-standard": "^34.0.0",
+        "stylelint-config-standard-scss": "^11.0.0"
+    }
 }

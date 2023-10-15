@@ -1,0 +1,50 @@
+.slime-demo-container {
+    background: url(/images/our-slimes-rules-background.png) no-repeat top center;
+    background-size: 100% 100%;
+    padding: 1rem 1rem 0 1rem;
+    margin: 1rem 0;
+
+    .slime-container {
+        margin: 8rem auto 0;
+        @include horizontal(space-around);
+        gap: 0;
+
+        .video {
+            width: 40%;
+        }
+
+        .text-content {
+            padding-right: 10rem;
+            max-width: 40%;
+        }
+
+        h2 {
+            color: $brand-purple;
+            font-size: 2.6rem;
+            padding-top: 2rem;
+        }
+
+        .content {
+            @include horizontal();
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            .rule {
+                max-width: 20rem;
+
+                h3 {
+                    color: $text;
+                    font-family: $inter;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .content-footer {
+        background: $background url(/images/our-slimes-rules-background.png) no-repeat bottom center;
+        background-size: 100% auto;
+        height: 14rem;
+        min-width: 100vw;
+    }
+}
