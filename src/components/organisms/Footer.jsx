@@ -27,6 +27,14 @@ function Footer() {
                     </div>
                 </div>
             </ContentContainer>
+            <div className="footer-bar">
+                <ContentContainer>
+                    <Link>
+                        <Image src={'/images/etsy-logo.png'} alt={'Etsy shop'} />
+                        etsy.com/shop/<strong>cherrixslime</strong>
+                    </Link>
+                </ContentContainer>
+            </div>
         </div>
     )
 }

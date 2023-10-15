@@ -23,7 +23,8 @@ function Gallery({ ref }) {
                         return (
                             // eslint-disable-next-line jsx-a11y/anchor-is-valid
                             <Link key={item.image} href="#" className="gallery-item">
-                                <Image src={`/images/${item.image}`} />
+                                {/* <Image src={`/images/${item.image}`} /> */}
+                                sdfsd
                             </Link>
                         )
                     })}
