@@ -1,0 +1,27 @@
+@import '../../general/constants';
+@import '../../general/mixins';
+
+.footer-container {
+    background: url(/images/footer-background.svg) no-repeat top center;
+    background-size: 100% auto;
+    padding: 10rem 2rem 4rem;
+
+    .footer-content {
+        margin: 0 auto;
+        color: $white;
+        @include horizontal();
+        align-items: flex-end;
+
+        .contact {
+            .title {
+                font-size: 1.3rem;
+                margin-top: 4rem;
+            }
+        }
+
+        .links {
+            //margin: 2rem 5rem 2rem;
+            margin-right: 5rem;
+        }
+    }
+}

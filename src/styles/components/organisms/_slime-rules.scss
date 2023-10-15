@@ -9,8 +9,25 @@
         @include horizontal(space-around);
         gap: 0;
 
-        .video {
+        .video-container {
             width: 40%;
+            position: relative;
+            top: 4rem;
+            padding: 1rem 0;
+            background: url(/images/video-back.png) no-repeat center;
+            background-size: 95% 92%;
+
+            align-items: center;
+
+            .video {
+                border-radius: 0.5rem;
+                overflow: hidden;
+                width: 480px;
+                height: 270px;
+                margin-left: 3rem;
+                margin-top: 1rem;
+                @include box-shadow(1rem, 0, 0, 0.5);
+            }
         }
 
         .text-content {
@@ -41,6 +58,7 @@
             }
         }
     }
+
     .content-footer {
         background: $background url(/images/our-slimes-rules-background.png) no-repeat bottom center;
         background-size: 100% auto;

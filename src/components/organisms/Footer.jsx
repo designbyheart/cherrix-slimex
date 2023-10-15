@@ -1,14 +1,15 @@
 import { Link } from '@nextui-org/react'
 import React from 'react'
-import ContentContainer from '../atoms/ContentContainer'
+
 import { socialLinks } from '../../data/topData'
+import ContentContainer from '../atoms/ContentContainer'
 
 function Footer() {
     return (
         <div className="footer-container">
-            <ContentContainer>
+            <ContentContainer className="footer-content">
                 <div className="contact">
-                    <p className="title">Contact us:</p>
+                    <p className="title">Contact us</p>
                     <p>
                         Name <br />
                         Address <br />

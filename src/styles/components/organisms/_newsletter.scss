@@ -1,5 +1,53 @@
+@import '../../general/constants';
+@import '../../general/mixins';
+
 .newsletter-content {
     margin: auto;
     justify-content: center;
     text-align: center;
+    align-items: center;
+
+    p {
+        max-width: 40rem;
+    }
+
+    .action-title {
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-align: center;
+        color: $brand-purple;
+        font-family: $raleway;
+    }
+
+    form {
+        @include horizontal();
+        border-radius: 3rem;
+        overflow: hidden;
+        border: solid 1px $brand-purple;
+        background-color: $white;
+        width: 30rem;
+        margin: 2rem 0 5rem;
+
+        input {
+            border: none;
+            padding: 0.5rem 1rem;
+            width: 100%;
+            font-size: 1rem;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .button:hover {
+            position: inherit;
+            top: 0;
+            box-shadow: none;
+        }
+    }
+
+    .etsy {
+        width: 8rem;
+        align-self: center;
+    }
 }

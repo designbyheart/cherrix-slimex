@@ -1,17 +1,19 @@
 import React from 'react'
-import ContentContainer from '../atoms/ContentContainer'
+
 import { aboutUsData } from '../../data/home'
+import ContentContainer from '../atoms/ContentContainer'
+
 function Why() {
     return (
         <div className="why-container">
-            <ContentContainer className={'about-content'}>
+            <ContentContainer className="about-content">
                 <p>About us</p>
                 <h2>Why Choose Our Slimes ?</h2>
 
                 <div className="data-container">
                     {aboutUsData.map((data) => (
-                        <div className={'about-us-item'} key={data.title}>
-                            <h3>{data.title}</h3>
+                        <div className="about-us-item" key={data.title}>
+                            <p className="title">{data.title}</p>
                             <p>{data.desc}</p>
                         </div>
                     ))}

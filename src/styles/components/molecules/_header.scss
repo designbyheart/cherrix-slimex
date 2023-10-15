@@ -1,9 +1,9 @@
 .header-container {
-    background: url('/images/hero-background.svg') no-repeat bottom center;
+    background: url('/images/hero-background.png') no-repeat bottom center;
     background-size: 100% auto;
     padding: 0 0 3rem 0;
     margin: 0;
-    z-position: -1;
+    z-index: -1;
 
     .header-content {
         padding: 1rem;

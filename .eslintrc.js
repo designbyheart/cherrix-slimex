@@ -1,5 +1,15 @@
 const fs = require('fs')
 
+function getDirectories(path) {
+    return fs.readdirSync(path).filter((file) => {
+        return fs.statSync(`${path}/${file}`).isDirectory()
+    })
+}
+function getDirectoriesToSort() {
+    const ignoredSortingDirectories = ['.git', '.next', '.vscode', 'node_modules']
+    return getDirectories(process.cwd()).filter((f) => !ignoredSortingDirectories.includes(f))
+}
+
 module.exports = {
     env: {
         browser: true,
@@ -12,8 +22,8 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:prettier/recommended',
-        'prettier',
-        'stylelint'
+        'prettier'
+        // 'stylelint'
     ],
     plugins: ['react', 'import', 'jsx-a11y', 'prettier', 'simple-import-sort'],
     overrides: [
@@ -51,9 +61,7 @@ module.exports = {
         'prettier/prettier': ['error', { endOfLine: 'auto' }],
         'jsx-a11y/label-has-associated-control': 0,
         'react/jsx-filename-extension': ['off'],
-        'react/prop-types': ['off'],
         'no-return-assign': ['off'],
-        'simple-import-sort/imports': 'error',
         'react/jsx-key': 0,
         'no-console': 0,
         'n/no-missing-import': 'off',
@@ -89,17 +97,4 @@ module.exports = {
             }
         ]
     }
-}
-
-function getDirectoriesToSort() {
-    const ignoredSortingDirectories = ['.git', '.next', '.vscode', 'node_modules']
-
-    //eslint-disable-next-line n/prefer-global/process
-    return getDirectories(process.cwd()).filter((f) => !ignoredSortingDirectories.includes(f))
-}
-
-function getDirectories(path) {
-    return fs.readdirSync(path).filter((file) => {
-        return fs.statSync(`${path}/${file}`).isDirectory()
-    })
 }
