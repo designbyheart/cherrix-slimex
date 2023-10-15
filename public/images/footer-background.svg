@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="391" viewBox="0 0 1366 391">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="1366" height="391" transform="translate(0 3291)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffae2c"/>
+      <stop offset="1" stop-color="#dd1bc6"/>
+    </linearGradient>
+  </defs>
+  <g id="footer-background" transform="translate(0 -3291)" clip-path="url(#clip-path)">
+    <path id="footer-back" d="M-381.484,584.121c-15.813,0-31.9-.468-48.095-1.419C-656.871,560.036-803.028,431.43-892.193,341.847c-258.721-310.553-193.871-763.055,51.137-881.158,167.729-73.446,319.346-21.261,417.941,46.18C-343.5-445.7-298.9-341.888-220.313-325.1c53.533,9.067,110.277-10.986,170.572-31.038C14.48-377.5,82.726-398.86,155.411-385.028c104.89,25.821,200.836,82.509,240.532,175.8,94.593,222.3-222.6,793.334-777.346,793.348Zm526.435-38.395c-22.259-5.548-35.21-30.471-28.926-55.667s29.426-41.124,51.685-35.577,35.212,30.471,28.926,55.667c-5.439,21.811-23.514,36.679-42.712,36.68A37.014,37.014,0,0,1,144.951,545.726ZM-189.455-388.79c-56.3-10.938-94.271-59.256-84.81-107.92s62.775-79.245,119.078-68.307S-60.916-505.759-70.381-457.1c-8.165,41.992-48.989,70.522-96.2,70.524A119.9,119.9,0,0,1-189.455-388.79Z" transform="translate(985.49 3865.764)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
