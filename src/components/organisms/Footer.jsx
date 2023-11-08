@@ -1,4 +1,4 @@
-import { Link } from '@nextui-org/react'
+import { Image, Link } from '@nextui-org/react'
 import React from 'react'
 
 import { socialLinks } from '../../data/topData'
@@ -29,8 +29,8 @@ function Footer() {
             </ContentContainer>
             <div className="footer-bar">
                 <ContentContainer>
-                    <Link>
-                        <Image src={'/images/etsy-logo.png'} alt={'Etsy shop'} />
+                    <Link href="https://etsy.com/shop/cherrixslime">
+                        <Image src="/images/etsy-logo.png" alt="Etsy shop" />
                         etsy.com/shop/<strong>cherrixslime</strong>
                     </Link>
                 </ContentContainer>

@@ -1,0 +1,53 @@
+{
+    "name": "build-javascript",
+    "namedChunkGroups": {
+        "app": {
+            "name": "app",
+            "assets": [
+                { "name": "webpack-runtime-a3322793489c62391568.js", "size": 4763 },
+                { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 141423 },
+                { "name": "app-e0175ba4075a3c4aa40c.js", "size": 69333 }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": 215519,
+            "filteredAuxiliaryAssets": 3,
+            "auxiliaryAssetsSize": 622956
+        },
+        "component---src-pages-404-js": {
+            "name": "component---src-pages-404-js",
+            "assets": [
+                { "name": "component---src-pages-404-js-4c299639549fb979b776.js", "size": 772 }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": 772,
+            "filteredAuxiliaryAssets": 1,
+            "auxiliaryAssetsSize": 1987
+        },
+        "component---src-pages-index-jsx": {
+            "name": "component---src-pages-index-jsx",
+            "assets": [
+                { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 141423 },
+                { "name": "styles.912c0011a0f07ba318c4.css", "size": 9871 },
+                { "name": "component---src-pages-index-jsx-3f86f131cd7ea4476f9a.js", "size": 75172 }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": 226466,
+            "filteredAuxiliaryAssets": 2,
+            "auxiliaryAssetsSize": 841284
+        }
+    },
+    "assetsByChunkName": {
+        "app": [
+            "webpack-runtime-a3322793489c62391568.js",
+            "framework-b969bcee69ffc2f1e05e.js",
+            "app-e0175ba4075a3c4aa40c.js"
+        ],
+        "component---src-pages-404-js": ["component---src-pages-404-js-4c299639549fb979b776.js"],
+        "component---src-pages-index-jsx": [
+            "framework-b969bcee69ffc2f1e05e.js",
+            "styles.912c0011a0f07ba318c4.css",
+            "component---src-pages-index-jsx-3f86f131cd7ea4476f9a.js"
+        ]
+    },
+    "childAssetsByChunkName": {}
+}
