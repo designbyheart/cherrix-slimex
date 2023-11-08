@@ -4,34 +4,37 @@
         "app": {
             "name": "app",
             "assets": [
-                { "name": "webpack-runtime-a3322793489c62391568.js", "size": 4763 },
-                { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 141423 },
-                { "name": "app-e0175ba4075a3c4aa40c.js", "size": 69333 }
+                { "name": "webpack-runtime-a3322793489c62391568.js", "size": 11630 },
+                { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 396490 },
+                { "name": "app-e0175ba4075a3c4aa40c.js", "size": 177465 }
             ],
             "filteredAssets": 0,
-            "assetsSize": 215519,
+            "assetsSize": 585585,
             "filteredAuxiliaryAssets": 3,
             "auxiliaryAssetsSize": 622956
         },
         "component---src-pages-404-js": {
             "name": "component---src-pages-404-js",
             "assets": [
-                { "name": "component---src-pages-404-js-4c299639549fb979b776.js", "size": 772 }
+                { "name": "component---src-pages-404-js-4c299639549fb979b776.js", "size": 1502 }
             ],
             "filteredAssets": 0,
-            "assetsSize": 772,
+            "assetsSize": 1502,
             "filteredAuxiliaryAssets": 1,
             "auxiliaryAssetsSize": 1987
         },
         "component---src-pages-index-jsx": {
             "name": "component---src-pages-index-jsx",
             "assets": [
-                { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 141423 },
-                { "name": "styles.912c0011a0f07ba318c4.css", "size": 9871 },
-                { "name": "component---src-pages-index-jsx-3f86f131cd7ea4476f9a.js", "size": 75172 }
+                { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 396490 },
+                { "name": "styles.912c0011a0f07ba318c4.css", "size": 12484 },
+                {
+                    "name": "component---src-pages-index-jsx-3f86f131cd7ea4476f9a.js",
+                    "size": 200718
+                }
             ],
             "filteredAssets": 0,
-            "assetsSize": 226466,
+            "assetsSize": 609692,
             "filteredAuxiliaryAssets": 2,
             "auxiliaryAssetsSize": 841284
         }
