@@ -1,5 +1,5 @@
-import { Image, Link } from '@nextui-org/react'
-import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from '@nextui-org/react'
+// import { StaticImage } from 'gatsby-plugin-image'
 import React, { forwardRef } from 'react'
 
 import items from '../../data/galleryData'
