@@ -4,12 +4,12 @@
         "app": {
             "name": "app",
             "assets": [
-                { "name": "webpack-runtime-a3322793489c62391568.js", "size": 11630 },
+                { "name": "webpack-runtime-0ae63dead6028b60233b.js", "size": 4763 },
                 { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 396490 },
-                { "name": "app-e0175ba4075a3c4aa40c.js", "size": 177465 }
+                { "name": "app-10a805ec0309a3ce785b.js", "size": 69333 }
             ],
             "filteredAssets": 0,
-            "assetsSize": 585585,
+            "assetsSize": 470586,
             "filteredAuxiliaryAssets": 3,
             "auxiliaryAssetsSize": 622956
         },
@@ -28,28 +28,25 @@
             "assets": [
                 { "name": "framework-b969bcee69ffc2f1e05e.js", "size": 396490 },
                 { "name": "styles.912c0011a0f07ba318c4.css", "size": 12484 },
-                {
-                    "name": "component---src-pages-index-jsx-3f86f131cd7ea4476f9a.js",
-                    "size": 200718
-                }
+                { "name": "component---src-pages-index-jsx-98d4ac0c94179ed2fb15.js", "size": 76664 }
             ],
             "filteredAssets": 0,
-            "assetsSize": 609692,
+            "assetsSize": 485638,
             "filteredAuxiliaryAssets": 2,
-            "auxiliaryAssetsSize": 841284
+            "auxiliaryAssetsSize": 867188
         }
     },
     "assetsByChunkName": {
         "app": [
-            "webpack-runtime-a3322793489c62391568.js",
+            "webpack-runtime-0ae63dead6028b60233b.js",
             "framework-b969bcee69ffc2f1e05e.js",
-            "app-e0175ba4075a3c4aa40c.js"
+            "app-10a805ec0309a3ce785b.js"
         ],
         "component---src-pages-404-js": ["component---src-pages-404-js-4c299639549fb979b776.js"],
         "component---src-pages-index-jsx": [
             "framework-b969bcee69ffc2f1e05e.js",
             "styles.912c0011a0f07ba318c4.css",
-            "component---src-pages-index-jsx-3f86f131cd7ea4476f9a.js"
+            "component---src-pages-index-jsx-98d4ac0c94179ed2fb15.js"
         ]
     },
     "childAssetsByChunkName": {}

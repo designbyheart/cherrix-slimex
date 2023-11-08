@@ -25,8 +25,7 @@ function Gallery({ ref }) {
                             // eslint-disable-next-line jsx-a11y/anchor-is-valid
                             <Link key={item.image} href="#" className="gallery-item">
                                 {/* <Image src={`/images/${item.image}`} /> */}
-                                <StaticImage alt={item.title} src={`/images/${item.image}`} />
-                                sdfsd
+                                {/* <StaticImage alt={item.title} src={`/images/${item.image}`} /> */}
                             </Link>
                         )
                     })}
